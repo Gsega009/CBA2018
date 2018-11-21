@@ -1,0 +1,355 @@
+* {
+     font-family: "Montserrat", sans-serif;
+}
+
+a.navbar-brand.scroll:hover {
+    color: #ccc;
+}
+
+a.navbar-brand:hover {
+    color: #ccc;
+}
+
+a.navbar-brand  {
+    display: inline-block;
+    margin-left: 15px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80px;
+    letter-spacing: 2px;
+}
+
+#suburb {
+    font-size: 22px;
+    color: #fff;
+}
+
+nav {
+    height: 8vh;
+    transition: background-color 200ms ease-in-out;
+    width: 100%;
+
+}
+
+nav.navbar.scrolled {
+  background-color: rgba(43, 43, 43, 0.5) !important;
+  transition: background-color 200ms ease-in-out;
+  height: 8vh;
+}
+
+ul#navbar-nav {
+    font-size: 24px;
+    transition: all 200ms linear;
+}
+
+.mblopt:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.mblopt {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    list-style: none;
+}
+
+#navigationmobile {
+    background-color: rgba(43, 43, 43, 0.5);
+    right:0;
+    width: 30%;
+    transition: 0.2s;
+}
+
+li.nav-item1 {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+#tandcli:hover {
+    color: #ccc;
+    transition: all 200ms ease-in-out;
+}
+
+a svg:hover #svgli {
+    fill: #ccc !important;
+                }
+
+.nav-link.scroll:hover { 
+    color: #ddd; 
+    transition: border-color 200ms ease-in-out;
+    transition: border-bottom 0.25s ease;
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+    border-color: #ddd;
+}
+
+.nav-link:hover { 
+    color: #ddd; 
+    transition: border-color 200ms ease-in-out;
+    transition: border-bottom 0.25s ease;
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+    border-color: #ddd;
+}
+
+
+
+#menu-icon {
+    display: none;
+}
+
+@media only screen and (max-width : 991px) {
+
+    header {
+
+        position: absolute;
+
+    }
+
+    #menu-icon {
+        display: inline-block;
+ }
+
+    ul#navbar-nav { 
+        display: none;
+    }
+
+   
+.background-image {
+    background-image: url(https://i.imgur.com/CNFAiv2.jpg);
+    background-color: #2b2b2b;
+    min-height: 100vh;
+    background-attachment: scroll !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .parallax2 {
+    background-image: url(https://i.imgur.com/1nQE9Vj.jpg);
+    background-color: #2b2b2b;
+    min-height: 100vh; 
+    background-attachment: scroll !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.numberthree {
+    /* The image used */
+    background-image: url(https://i.imgur.com/kpcSUJ0.jpg);
+    background-color: #2b2b2b;
+
+    /* Set a specific height */
+    min-height: 100vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.numberfour {
+    /* The image used */
+    background-image: url("https://i.imgur.com/IO4L7Aw.jpg");
+    background-color: #2b2b2b;
+
+    /* Set a specific height */
+    min-height: 100vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    .numberfive {
+    /* The image used */
+    background-image: url(https://i.imgur.com/54nrG2N.jpg);
+    background-color: #2b2b2b;
+
+    /* Set a specific height */
+    min-height: 150vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+}
+
+#navpad {
+    margin: 1.25em 0.65em;
+  }
+
+.navbar a {
+    color: #fff;
+    transition: all 200ms ease-in-out;
+    border-bottom: 0px solid white;
+}
+
+.pg1content {
+    color: #fff;
+}
+
+#hding2 {
+    color: #fff; 
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#bigwrting {
+    color: #fff; 
+    font-size: 38px;
+    text-align: left;
+}
+
+ #fixed-text {
+    color: #fff;
+    size: 20px;
+}
+
+#content {
+    color: #fff;
+    size: 20px;
+}
+
+
+#pricingh2padding {
+    height: 15vh;
+}
+
+#pricingpadding {
+    height: 20vh;
+}
+.pricing-table h5 {
+    display: block;
+    margin: 0;
+    padding: 17px 0;
+    width: 100%;
+    border: 1px solid #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.pricing-table .price {
+    display: block;
+    padding: 17px 0;
+    width: 100%;
+    border: 1px solid #fff;
+    border-top: none;
+    text-align: center;
+    font-size: 24px;
+}
+
+.tandcbg {
+    background-image: url("https://i.imgur.com/kpcSUJ0.jpg");
+    background-color: #2b2b2b;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-image {
+    background-image: url("https://i.imgur.com/CNFAiv2.jpg");
+    background-color: #2b2b2b;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("https://i.imgur.com/1nQE9Vj.jpg");
+
+    /* Set a specific height */
+    min-height: 100vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.numberthree {
+    /* The image used */
+    background-image: url("https://i.imgur.com/kpcSUJ0.jpg");
+    background-color: #2b2b2b;
+
+    /* Set a specific height */
+    min-height: 100vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.numberfour {
+    /* The image used */
+    background-image: url("https://i.imgur.com/IO4L7Aw.jpg");
+    background-color: #2b2b2b;
+
+    /* Set a specific height */
+    min-height: 100vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.numberfive {
+    /* The image used */
+    background-image: url("https://i.imgur.com/54nrG2N.jpg");
+    background-color: #2b2b2b;
+
+    /* Set a specific height */
+    min-height: 100vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label {
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+#form1 {
+    border-radius: 0;
+    border: none;
+    background-color: rgba(50,50, 50, 0.5);
+    color: #fff;
+}
+
+.copyright {
+    vertical-align: text-bottom;
+    padding-left: 2rem;
+    padding-top: 19.5vh;
+    font-size: 20px;
+    color: #fff;
+}
+
+footer {
+    background-color: #2b2b2b;
+    height: 25vh;
+}
